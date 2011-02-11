@@ -1,0 +1,15 @@
+= Backbone.js and HTML5 Drag & Drop Uploader
+
+This is example code meant to accompany a forthcoming Onehub blog post
+
+== Getting Started
+
+The steps in the blog post are explicitly tagged, so the code included in the links won't change. If you'd like to get going with the latest version of this repo:
+
+1. <tt>git clone git://github.com/texel/backbone_html5_uploader.git</tt>
+2. <tt>sudo gem install bundler</tt>
+3. <tt>bundle install</tt>
+4. <tt>rackup</tt>
+
+That's it! Happy hacking!
+
