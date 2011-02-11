@@ -1,10 +1,11 @@
-require 'rubygems'
 require 'sinatra'
 require 'erb'
 
-get '/' do
-  erb :"index.html"
-end
+class App < Sinatra::Application
+  get '/' do
+    erb :"index.html"
+  end
 
-put '/' do
+  put '/' do
+  end
 end
