@@ -1,7 +1,7 @@
 require 'sinatra'
 require 'erb'
 
-class App < Sinatra::Application
+class App < Sinatra::Base
   get '/' do
     erb :"index.html"
   end

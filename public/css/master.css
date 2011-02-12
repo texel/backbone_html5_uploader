@@ -1,5 +1,21 @@
+body {
+	font: normal 62.5%/20px 'Helvetica Neue', Helvetica, Arial, sans-serif; /* normalize font size across browsers */
+}
+
+p {
+  font-size: 1.2em;
+}
+
 #drop_target {
   width: 400px;
   height: 300px;
   border: 1px dashed;
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 2em;
+  font-style: bold;
+}
+
+#drop_target p {
+  text-align: center;
 }
