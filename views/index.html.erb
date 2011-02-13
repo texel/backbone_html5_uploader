@@ -6,6 +6,10 @@
   
   <body>
     <div id="drop_target">
+      <div id="hover_target" style="display:none;">
+        <p>Please drop your files here</p>
+      </div>    
+
       <p>Please drag files here</p>
     </div>
   </body>
@@ -13,12 +17,11 @@
   <script type="text/javascript" src="/javascripts/jquery-1.5.js"></script>
   <script type="text/javascript" src="/javascripts/underscore.js"></script>
   <script type="text/javascript" src="/javascripts/backbone.js"></script>
-
-  <script id="drop_overlay" type="text/html">
-    <div>
-      <p>Please drop your files here</p>
-    </div>
-  </script>
+  <script type="text/javascript" src="/javascripts/drop_target.js"></script>
+  <script type="text/javascript">
+    // Instantiate the drop target     
+    var dropTarget = new DropTarget({el: $("#drop_target")});
+  </script>  
 
   <script id="progress" type="text/html">
     <div>
